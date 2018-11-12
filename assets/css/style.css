@@ -1,0 +1,134 @@
+body {
+    margin-top: 0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+  }
+  
+  h1 {
+    color: white;
+    padding-right: 9%;
+    padding-left: 9%;
+  }
+  
+  .border {
+    border-top: 2px solid #cccccc;
+    height: 43px;
+    background-color: AliceBlue;  
+  }
+  
+  .spaceholder {
+    flex-grow: 15;
+  }
+  
+  .container {
+    flex-grow: 1;
+    background: #4aaaa5;
+    text-align: center;
+  }
+  
+  .container2 {
+    flex-grow: 1;
+   }
+  
+  nav li {
+    display: inline-block;
+    font-size: 20px;
+    color: grey;
+    margin:0px;
+  }
+  
+  nav li:nth-child(2) {
+    margin-right:5%;
+    margin-left: 5%;  
+    border-right: thin solid gainsboro;
+    border-left: thin solid gainsboro;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  
+  .all-content-container {
+    background-color: AliceBlue;
+    padding-bottom: 5%;
+  }
+  
+  .main-content {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin: 0;
+    margin-bottom: 3%;
+    color: #777777;
+  }
+  
+  .AboutMe {
+    padding: 4%;
+    background: #ffffff;
+    display: inline-block;
+    flex-grow: 2;
+    width: 50%;
+    border: solid 1px #dddddd; 
+    margin-right: 4%;
+    font-size: 20px
+  }
+  
+  .ContactMe {
+    justify-content: center;
+    background-color: white;
+    flex-grow: 1;
+    border: solid 1px #dddddd;
+    text-align: center;
+    height: 200px;
+    color: #777777;
+  }
+  
+  h3{
+    font-size: 20px;
+  }
+  
+  .icons {
+    display: flex;
+    padding: 0;
+  }
+  
+  aside li {
+    display: inline-block;
+    font-size: 350%;
+    flex-grow: 1;
+  }
+  
+  img {
+    float: left;
+    margin-right: 5%;
+  }
+  
+  p {
+    margin-top: 0px;
+    color: #777777;
+  }
+  
+  footer {
+    height: 70px;
+    border-top: solid 8px #4aaaa5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    background: #666666;
+    
+  }
+  
+  footer p {
+    color: white;
+    
+  }
